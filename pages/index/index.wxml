@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view>Increment by one</view>
+<view>{{number}}</view>
+
+<button bindtap="plusOne">+1</button>
