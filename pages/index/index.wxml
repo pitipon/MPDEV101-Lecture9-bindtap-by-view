@@ -1,5 +1,9 @@
 <!--index.wxml-->
-<view>Increment by one</view>
-<view>{{number}}</view>
 
-<button bindtap="plusOne">+1</button>
+<!-- Show Number -->
+<view class="banner">{{number}}</view>
+
+<!-- Nice Button -->
+<view class='container'>
+  <view class="nice-button" bindtap="plusOne">+1</view>
+</view>

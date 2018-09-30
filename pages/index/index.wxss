@@ -1,1 +1,31 @@
 /**index.wxss**/
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200rpx;
+  font-weight: 400;
+  background-color: goldenrod;
+  height: 500rpx;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nice-button {
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
